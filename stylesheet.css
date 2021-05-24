@@ -57,15 +57,65 @@ header{
 }
 
 
-#lapas {
+#pages {
     margin-left: 40px;
     margin-top: 15px;
 }
 
-.lapas {
+.pages {
     background: none;
     border: none;
     color: #3175c2;
     font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#background {
+    position: fixed;
+    background-image: url(images/background.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#searchPage2 {
+    display: flex;
+    background-color: rgb(73, 158, 255);
+    width: 560px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+#searchButton {
+    height: 35px;
+    width: 90px;
+    border-radius: 16px;
+    font-family: Sulphur Point;
+    font-size: 17px;
+    border:none;
+    color: white;
+    background-color: #0070D8;
+    margin-left: 15px;
+}
+
+#input1 {
+    border-radius: 13px;
+    width: 320px;
+    outline: none;
+    border-style: none;
+    text-indent: 10px;
+}
+
+#input2 {
+    border-radius: 13px;
+    outline: none;
+    width: 120px;
+    margin-left: 15px;
+    border-style: none;
+    text-indent: 10px;
 }
 
