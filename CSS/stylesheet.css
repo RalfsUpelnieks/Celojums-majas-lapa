@@ -79,7 +79,7 @@ header{
 
 #background {
     position: fixed;
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ header{
 }
 
 #search_bar_back {
-    background-image: url(images/search_bar_back_main.png);
+    background-image: url(../images/search_bar_back_main.png);
     background-repeat: no-repeat;
     height:222px;
     width: 100%;
