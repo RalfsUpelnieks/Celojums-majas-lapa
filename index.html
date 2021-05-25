@@ -4,44 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="CSS/generic.css">
+    <link rel="stylesheet" href="CSS/style_main.css">
     <link href="https://fonts.googleapis.com/css?family=Thasadith&display=swap" rel="stylesheet"/>
     <title>Document</title>
 </head>
 <body>
-    <header id="header_main">
-        <img id="logo" src="images/png.png" width="90" height="90" />
-        <h1 id="title">Travely</h1>
-        <h1 id="number">+371 29749980</h1>
-        <button id="login"><span class="nice">LOG IN</span></button>
-    </header>
-    <div id="page_middle">
-        <div id="search_bar_back">
-                <div id="searchPage">
-                    <input id="input1" type="text" placeholder="Kur jūs velaties doties">
-                    <input id="input2" type="text" placeholder="Datums">
-                    <button id="searchButton">Meklēt</button>
+    <div id="body_wrap">
+        <header id="header_main">
+            <img id="logo" src="images/png.png" width="90" height="90" />
+            <h1 id="title">Travely</h1>
+            <h1 id="number">+371 29749980</h1>
+            <button id="login"><span class="nice">LOG IN</span></button>
+        </header>
+        <div id="page_middle">
+            <div id="search_bar_back">
+                    <div id="searchPage">
+                        <input id="input1" type="text" placeholder="Kur jūs velaties doties">
+                        <input id="input2" type="text" placeholder="Datums">
+                        <button id="searchButton">Meklēt</button>
+                    </div>
+            </div>
+            <div id="travel_list">
+                <h1 class="sub_title">Populārākie galamērķi</h1>
+                <div id="travel_list_flexbox">
+                    <div class="trip-1 trip">
+                        <img src="images/destinations/lisabon.png" class="trip_img">
+                        <h1 class="travel_list_title">Lisabona</h1>
+                    </div>
+                    <div class="trip_2 trip">
+                        <img src="images/destinations/paris.png" class="trip_img">
+                        <h1 class="travel_list_title">Parīze</h1>
+                    </div>
+                    <div class="trip_3 trip">
+                        <img src="images/destinations/santorine.png" class="trip_img">
+                        <h1 class="travel_list_title">Santorine</h1>
+                    </div>
+                    <div class="trip_4 trip">
+                        <img src="images/destinations/new_york.png" class="trip_img">
+                        <h1 class="travel_list_title">Ņujorka</h1>
                 </div>
-        </div>
-        <div id="travel_list">
-            <h1 class="sub_title">Populārākie galamērķi</h1>
-            <div id="travel_list_flexbox">
-                <div class="trip-1 trip">
-                      <img src="images/destinations/lisabon.png" class="trip_img">
-                      <h1 class="travel_list_title">Lisabona</h1>
                 </div>
-                <div class="trip_2 trip">
-                      <img src="images/destinations/paris.png" class="trip_img">
-                      <h1 class="travel_list_title">Parīze</h1>
-                </div>
-                <div class="trip_3 trip">
-                      <img src="images/destinations/santorine.png" class="trip_img">
-                      <h1 class="travel_list_title">Santorine</h1>
-                </div>
-                <div class="trip_4 trip">
-                    <img src="images/destinations/new_york.png" class="trip_img">
-                    <h1 class="travel_list_title">Ņujorka</h1>
-              </div>
             </div>
         </div>
     </div>
